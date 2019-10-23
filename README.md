@@ -44,7 +44,7 @@ MagicMirror² Module to monitor public transport (U-bahn, tram, bus, S-Bahn) in 
 ## Config Options
 | **Option**        | **Description** |
 | --- | --- |
-| `haltestelle`     | Station for which you want to display data. <br> **Default:** `Hauprbanhof` <br> **Source:** http://www.mvg-live.de/MvgLive/MvgLive.jsp |
+| `haltestelle`     | Station for which you want to display data. <br> **Default:** `Hauptbahnhof` <br> **Source:** http://www.mvg-live.de/MvgLive/MvgLive.jsp |
 | `maxEntries`      | Number of items shown in table. <br> **Default:** `8` |
 | `updateInterval`  | Update interval <br> **Default:** `60000` |
 | `ubahn`           | Show data for U-Bahn. <br> **Possible values:** `true` or `false` <br> **Default:** `true` |
