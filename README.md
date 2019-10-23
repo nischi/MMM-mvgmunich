@@ -10,7 +10,7 @@ MagicMirror² Module to monitor public transport (U-bahn, tram, bus, S-Bahn) in 
 * urlencode (linux: npm install urlencode)
 
 ## Installation
-1. Clone this repository in your MagicMirror installation under modules.
+1. Clone this repository in your MagicMirror installation into the folder modules.
 2. Rename plugin foler from 'MMM-mvgmunich' to 'mvgmunich'
 3. Install dependencies in main MagicMirror folder
 4. Add configuration block to your config.js:
@@ -28,7 +28,7 @@ MagicMirror² Module to monitor public transport (U-bahn, tram, bus, S-Bahn) in 
         "ubahn": true,            // show ubahn route
         "sbahn": true,            // show sbahn route
         "bus": true,              // show bus route
-        "regional_bus": true      // show regional bus route
+        "regional_bus": true,     // show regional bus route
         "tram": true              // show tram route
       },
       ignoreStations: [],         // destination not to be shown
@@ -36,7 +36,7 @@ MagicMirror² Module to monitor public transport (U-bahn, tram, bus, S-Bahn) in 
       showWalkingTime: false,     // if the walking time should be included and the starting time is displayed
       showTrainDepartureTime: true,     // show tran departure time
       trainDepartureTimeFormat: "relative",   // format of the train departure time
-      walkingTimeFormat: "relative",    // format of the walking time
+      walkingTimeFormat: "relative"    // format of the walking time
     }
 },
 ```
